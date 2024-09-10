@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# B.O. Soluções - Site Institucional
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é o repositório oficial do site institucional da **B.O. Soluções**, desenvolvido com **React** e **React-Bootstrap**. O site tem como objetivo apresentar a empresa e seus serviços voltados à instalação de equipamentos de proteção contra incêndio.
 
-## Available Scripts
+Este projeto foi inicializado com [Create React App](https://github.com/facebook/create-react-app).
 
-In the project directory, you can run:
+## Scripts Disponíveis
+
+No diretório do projeto, você pode rodar os seguintes comandos:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Roda o app no modo de desenvolvimento.\
+Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo no navegador.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Inicia o executor de testes no modo interativo.\
+Veja a seção sobre [execução de testes](https://facebook.github.io/create-react-app/docs/running-tests) para mais detalhes.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Compila o app para produção na pasta `build`.\
+Ele agrupa corretamente o React no modo de produção e otimiza o build para melhor performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Tecnologias Utilizadas
 
-### `npm run eject`
+- **React** - Biblioteca JavaScript para construção de interfaces de usuário.
+- **React-Bootstrap** - Framework CSS para componentes responsivos e estilizados.
+- **JavaScript (ES6+)** - Linguagem de programação usada no desenvolvimento.
+- **Git** - Controle de versão para gerenciar o código-fonte.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Estrutura do Projeto
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+O projeto está estruturado da seguinte forma:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+/ B.O-Soluções/
+│
+├── /public/              # Arquivos públicos (ícones, imagens, etc.)
+├── /src/                 # Código fonte do projeto
+│   ├── /components/      # Componentes React reutilizáveis
+│   ├── /pages/           # Páginas do site
+│   ├── /assets/          # Arquivos de mídia e estilos
+│   └── App.js            # Componente principal da aplicação
+│
+├── package.json          # Dependências e scripts
+└── README.md             # Documentação do projeto
+```
+ No gpt here
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Foto de capa por [Jakub Żerdzicki](https://unsplash.com/pt-br/@jakubzerdzicki?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) na [Unsplash](https://unsplash.com/pt-br/fotografias/uma-placa-vermelha-e-branca-em-uma-parede-de-concreto-T-y-hZzNXWA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  
