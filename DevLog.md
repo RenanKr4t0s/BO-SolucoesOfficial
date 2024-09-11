@@ -1,6 +1,20 @@
 # Plano de Desenvolvimento - B.O. Soluções
 
+## A incluir no readme
+- Começamos a usar React Router Dom
+
+
+
 Este documento detalha as etapas necessárias para o desenvolvimento e lançamento do site institucional da **B.O. Soluções**.
+
+## Links importantes
+- [ChatGPT](https://chatgpt.com/c/66e05f2f-c190-800e-a4ad-23679a8f9de0)
+- [CNS Serviços Elétricos](https://www.cnservicoseletricos.com.br/)
+- [React Bootstrap Documentation](https://react-bootstrap.netlify.app/docs/components/)
+- [Bootstrap Customization](https://getbootstrap.com/docs/5.3/customize/)
+- [Bio Energy Landing Page (Dribbble)](https://dribbble.com/shots/24832491-Bio-Energy-Landing-Page)
+- [Bruno Form de RdR](https://docs.google.com/forms/d/19RraJzOJRAfysv9uFMOpXrj2PYer49FOzrgMSNcA4e8/edit#response=ACYDBNjfHmhKRjYCOgQbsODqIWV_G0FodVh5VYdHoTOTudQ9t9M_Uuxbt5r3UjS_6A)
+
 
 ## Etapas de Desenvolvimento
 
@@ -19,10 +33,10 @@ Este documento detalha as etapas necessárias para o desenvolvimento e lançamen
   - Contato
 
 - [x] Pegar a imagem principal para a **Home** de um site de geração de imagens gratuitas (ex.: Unsplash ou Pexels).
-  - [ ] Definir uma imagem que represente a empresa (proteção contra incêndio, segurança).
-  - [ ] Aplicar a imagem como **background** da página principal, com um overlay escuro para dar destaque aos textos.
+  - [x] Definir uma imagem que represente a empresa (proteção contra incêndio, segurança).
+  - [x] Aplicar a imagem como **background** da página principal, com um overlay escuro para dar destaque aos textos.
 
-- [ ] Criar um **Hero Section** com as seguintes informações:
+- [x] Criar um **Hero Section** com as seguintes informações:
   - Título chamativo (ex.: "Soluções em Proteção Contra Incêndio")
   - Subtítulo com uma breve descrição da empresa.
   - Botão de chamada para ação (ex.: "Saiba Mais").

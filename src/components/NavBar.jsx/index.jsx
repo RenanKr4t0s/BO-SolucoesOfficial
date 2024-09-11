@@ -1,10 +1,9 @@
 import { Navbar, Container, Nav, NavDropdown, Image } from 'react-bootstrap';
 
-const SiteName = "BO Soluções"
-
 const navLinksStart = [
   { link: "#features", text: "Sobre nós" },
-  { link: "#pricing", text: "Contato" }
+  { link: "#pricing", text: "Contato" },
+  { link: "/servicos", text: "SERVICOS PROVISORIO" }
 ];
 const dropdownItems = [
   { link: "#action/3.1", text: "Instalação" },
@@ -14,13 +13,13 @@ const dropdownItems = [
 ];
 
 const navLinksEnd = [
-    { link: "#", text: "Home" },
+    { link: "/", text: "Home" },
     { link: "#pricing", text: "Fale conosco" }
   ];
 const MyNavbar = ({logo}) => (
   <Navbar collapseOnSelect expand="lg" className='rounded-5 shadow-lg'>
     <Container>
-      <Navbar.Brand href="#home">
+      <Navbar.Brand href="/">
       <Image src={logo} width={90}/>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -42,7 +41,7 @@ const MyNavbar = ({logo}) => (
         </Nav>
         <Nav>
             {navLinksEnd.map((link, index) => (
-                <Nav.Link key={index} href={link.link}>
+                <Nav.Link key={index} href={link.link} className='text-primary'>
                 {link.text}
                 </Nav.Link>
             ))}

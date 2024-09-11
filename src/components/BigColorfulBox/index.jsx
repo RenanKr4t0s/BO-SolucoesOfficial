@@ -3,13 +3,18 @@ const BigImageBox = ({ children, image }) => {
         backgroundImage: `url(${image})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
-        width: "100vw",
         position: "relative",
+    };
+    const secondStyle={
+        position: "relative",
+        backgroundColor: "rgba(0, 118, 252, 0.5)",
     };
 
     return (
-        <div style={divStyle} className="pb-3">
+        <div style={divStyle}>
+            <div style={secondStyle}>
                 {children}
+            </div>
         </div>
     );
 };
