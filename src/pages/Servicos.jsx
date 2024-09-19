@@ -1,68 +1,83 @@
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
+import {Nav} from 'react-bootstrap'
 
 import background from "../assets/Bg-from-Jakub.jpg"
-import image from '../assets/Logo.svg'
-import { Container } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import BigColorfulBox from '../components/BigColorfulBox';
 
 function Servicos() {
   return (
     <Container>
         <BigColorfulBox image={background}>
-            <CardGroup className=''>
-            <Card>
-                <Card.Img variant="top" src={image} />
-                    <Card.Body>
-                        <Card.Title>Card title</Card.Title>
-                        <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in
-                            to additional content. This content is a little bit longer.
-                        </Card.Text>
-                    </Card.Body>
-                    <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                    </Card.Footer>
-            </Card>
-            <Card>
-                <Card.Img variant="top" src={image} />
-                    <Card.Body>
-                        <Card.Title>Card title</Card.Title>
-                        <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in
-                            to additional content. This content is a little bit longer.
-                        </Card.Text>
-                    </Card.Body>
-                    <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                    </Card.Footer>
-            </Card>
-            <Card>
-                <Card.Img variant="top" src={image} />
-                    <Card.Body>
-                        <Card.Title>Card title</Card.Title>
-                        <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in
-                            to additional content. This content is a little bit longer.
-                        </Card.Text>
-                    </Card.Body>
-                    <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                    </Card.Footer>
-            </Card>
-            <Card>
-                <Card.Img variant="top" src={image} />
-                    <Card.Body>
-                        <Card.Title>Card title</Card.Title>
-                        <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in
-                            to additional content. This content is a little bit longer.
-                        </Card.Text>
-                    </Card.Body>
-                    <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                    </Card.Footer>
-            </Card>
+            <CardGroup className='gap-3 p-3 my-2'>
+            <Row xs={1} md={2} lg={4} className="g-4">
+                <Col>
+                    <Nav.Link href='/servicos/0'>
+                        <Card>
+                            <Card.Header className='h1 text-center'><i class="bi bi-wrench-adjustable-circle"></i></Card.Header>
+                                <Card.Body>
+                                    <Card.Title>Manutenção preventiva e corretiva</Card.Title>
+                                    <Card.Text>
+                                    Mantemos seu sistema de alarme de incêndio em pleno funcionamento, evitando falhas, corrigindo problemas e garantindo a segurança do seu estabelecimento.
+                                    </Card.Text>
+                                </Card.Body>
+                                <Card.Footer>
+                                    <small className="text-muted">Funcionamento seguro</small>
+                                </Card.Footer>
+                        </Card>
+                    </Nav.Link>
+                </Col>
+                <Col>
+                    <Nav.Link href='/servicos/1'>
+                        <Card>
+                            <Card.Header className='h1 text-center'><i class="bi bi-tools"></i></Card.Header>
+                                <Card.Body>
+                                    <Card.Title>Instalação de equipamentos</Card.Title>
+                                    <Card.Text>
+                                    Instalamos bombas, hidrantes e sistemas de alarme de incêndio, sempre seguindo rigorosamente as normas de segurança e oferecendo soluções personalizadas para cada cliente.
+                                    </Card.Text>
+                                </Card.Body>
+                                <Card.Footer>
+                                    <small className="text-muted">Instalação eficiente</small>
+                                </Card.Footer>
+                        </Card>
+                    </Nav.Link>
+                </Col>
+                <Col>
+                    <Nav.Link href='/servicos/2'>
+                        <Card>
+                            <Card.Header className='h1 text-center'><i class="bi bi-telephone-plus"></i></Card.Header>
+                                <Card.Body>
+                                    <Card.Title>Suporte técnico especializado</Card.Title>
+                                    <Card.Text>
+                                    Oferecemos suporte técnico completo, resolvendo falhas, realizando ajustes e garantindo a eficiência dos sistemas de prevenção e combate a incêndio.
+                                    </Card.Text>
+                                </Card.Body>
+                                <Card.Footer>
+                                    <small className="text-muted">Suporte completo</small>
+                                </Card.Footer>
+                        </Card>
+                    </Nav.Link>
+                </Col>
+                <Col>
+                    <Nav.Link href='/servicos/3'>
+                        <Card>
+                            <Card.Header className='h1 text-center'><i class="bi bi-file-text"></i></Card.Header>
+                                <Card.Body>
+                                    <Card.Title>Avaliação técnica</Card.Title>
+                                    <Card.Text>
+                                    Realizamos avaliações detalhadas dos sistemas de proteção contra incêndio, identificando possíveis melhorias e garantindo que estejam de acordo com as exigências normativas.
+                                    </Card.Text>
+                                </Card.Body>
+                                <Card.Footer>
+                                    <small className="text-muted">Avaliação precisa</small>
+                                </Card.Footer>
+                        </Card>
+                    </Nav.Link>
+                </Col>
+            </Row>
             </CardGroup>
         </BigColorfulBox>
     </Container>

@@ -3,8 +3,6 @@
 ## A incluir no readme
 - Começamos a usar React Router Dom
 
-
-
 Este documento detalha as etapas necessárias para o desenvolvimento e lançamento do site institucional da **B.O. Soluções**.
 
 ## Links importantes
@@ -43,43 +41,47 @@ Este documento detalha as etapas necessárias para o desenvolvimento e lançamen
 
 ### 3. Seções Comuns
 
-- [ ] **Seção Sobre Nós**:
+- [x] **Seção Sobre Nós**:
   - Criar uma breve história da empresa e seus valores.
   - Incluir uma imagem ou ícone relacionado à empresa.
   
-- [ ] **Seção de Serviços**:
+- [x] **Seção de Serviços**:
   - Listar os principais serviços oferecidos pela B.O. Soluções.
   - Cada serviço deve ter um ícone, título e breve descrição.
   
 - [ ] **Seção de Clientes/Soluções Realizadas**:
+  - **Cliente Não enviou depoimentos88**
   - Incluir depoimentos ou logos de clientes, se houver.
   - Mostrar alguns projetos de destaque (opcional).
 
 ### 4. Seção de Contato
 
-- [ ] **Formulário de Contato**:
-  - Incluir campos de nome, email, mensagem e um botão para enviar.
-  - Conectar com um serviço de envio de email (ex.: **EmailJS** ou uma API).
+- [ ] **Botão Flutuante Whatsapp**:
+  - Incluir botão flutuante que leva para contato = Home
 
-- [ ] Incluir **informações de contato** adicionais:
+- [X] Incluir **informações de contato** adicionais:
   - Endereço físico (se aplicável).
   - Telefone.
   - Email para contato comercial.
 
 ### 5. Estilização e Responsividade
-
-- [ ] Ajustar o **layout responsivo** usando o grid do **React-Bootstrap** para garantir que o site funcione bem em dispositivos móveis e tablets.
-- [ ] Testar em diferentes tamanhos de tela e ajustar margens, paddings e tamanhos de fontes conforme necessário.
+- [ ] Configurar biblioteca de Animation e aplicar a todos os componentes
+- [x] Ajustar o **layout responsivo** usando o grid do **React-Bootstrap** para garantir que o site funcione bem em dispositivos móveis e tablets.
+- [x] Testar em diferentes tamanhos de tela e ajustar margens, paddings e tamanhos de fontes conforme necessário.
 
 ### 6. Otimização e Acessibilidade
 
 - [ ] **Otimizar imagens** para melhorar o tempo de carregamento.
+- [ ] Refatorar os componentes um a um para organização.
+- [ ] Excluir todo o conteúdo não utilizado da página.
 - [ ] Verificar e corrigir eventuais problemas de **acessibilidade** (uso de ARIA, contraste, tamanho de fontes).
 - [ ] Verificar o SEO básico (títulos, meta descrições, tags de imagem alt).
+- [ ] Incluir Tags de SEO do cliente
+- [ ] Copiar Tags de SEO do Projeto anterior
 
 ### 7. Implementar o Footer
 
-- [ ] Criar um **Footer** com links para redes sociais, informações legais e direitos autorais.
+- [x] Criar um **Footer** com links para redes sociais, informações legais e direitos autorais.
 
 ### 8. Testes e Lançamento
 
@@ -89,8 +91,8 @@ Este documento detalha as etapas necessárias para o desenvolvimento e lançamen
 - [ ] Subir o projeto final no **GitHub Pages** ou em um servidor de hospedagem (ex.: Vercel, Netlify).
 
 ## Tarefas Adicionais
-
-- [ ] Configurar um domínio personalizado (se for fornecido pelo cliente).
+- [ ] Comprar o domínio personalizado
+- [ ] Configurar um domínio personalizado
 - [ ] Testar o desempenho do site em ferramentas como **Google PageSpeed Insights**.
 - [ ] Gerar favicons e adicionar o suporte a diferentes plataformas (ícones de navegador, ícones para mobile).
 

@@ -53,4 +53,4 @@ O projeto está estruturado da seguinte forma:
 
 Foto de capa por [Jakub Żerdzicki](https://unsplash.com/pt-br/@jakubzerdzicki?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) na [Unsplash](https://unsplash.com/pt-br/fotografias/uma-placa-vermelha-e-branca-em-uma-parede-de-concreto-T-y-hZzNXWA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 
-  
+Foto de background por [Jandira Sonnendeck](https://unsplash.com/pt-br/@jandira_sonnendeck?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) na [Unsplash](https://unsplash.com/pt-br/fotografias/quatro-extintores-de-incendio-alinhados-contra-uma-parede-verde-wNDZ0uSCB5A?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)

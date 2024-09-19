@@ -1,10 +1,5 @@
 import MainHome from './MainHome.jsx';
-import Welcome from './Welcome.jsx';
 import Servicos from './Servicos.jsx';
-import ServiceSet from './ServiceSet.jsx';
-import TextCard from '../components/TextCard.jsx';
-
-import { createRoot } from "react-dom/client";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -13,9 +8,12 @@ import {
   Outlet,
 } from "react-router-dom";
 import HomeTexts from '../components/HomeTexts.jsx';
-import HomeBottom from './RoutePages/HomeBottom.jsx';
 import AltTexts from '../components/AltTexts.jsx';
-
+import Footer from '../components/Footer.jsx';
+import Welcome from './Welcome.jsx';
+import ServicesDetail from './ServicesDetail.jsx';
+import HoAmI from './HoAmI.jsx';
+import Testador from '../components/Testador.jsx';
 const routerTop = createBrowserRouter([
 	{
 		path:"/",
@@ -26,13 +24,17 @@ const routerTop = createBrowserRouter([
 		  element: <HomeTexts/>,
       },
       {
-        path:"/servicos",
+        path:"/hoami",
+        element: <AltTexts/>,
+      },
+      {
+        path:"/servicos/:id",
         element:<AltTexts />
       }
    ]
 	},
   {
-		path:"/susu",
+		path:"/susu/:id",
 		element: <Servicos/>
 	},
 ])
@@ -44,17 +46,21 @@ const routerBottom = createBrowserRouter([
     children:[
       {
       path:"/",
-		  element: <HomeBottom/>
+		  element: <Welcome/>
       },
       {
-        path:"/servicos",
-        element:<Servicos />
+        path:"/hoami",
+        element: <HoAmI/>,
+      },
+      {
+        path:"/servicos/:id",
+        element:<ServicesDetail/>
       }
    ]
 	},
   {
-		path:"/servicos",
-		element: <Servicos/>
+		path:"/susu/:id",
+		element: <Testador/>
 	},
 ])
 
@@ -64,11 +70,10 @@ const routerBottom = createBrowserRouter([
 function App() {
   return (
     <>
-      {/* <MainHome/> */}
       <RouterProvider router={routerTop} />
       <RouterProvider router={routerBottom} />
-      {/* <Welcome /> */}
-      {/* <Servicos /> */}
+      <Servicos />
+      <Footer />
     </>
   );
 }

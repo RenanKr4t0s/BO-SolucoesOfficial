@@ -1,20 +1,20 @@
 import { Navbar, Container, Nav, NavDropdown, Image } from 'react-bootstrap';
 
 const navLinksStart = [
-  { link: "#features", text: "Sobre nós" },
-  { link: "#pricing", text: "Contato" },
-  { link: "/servicos", text: "SERVICOS PROVISORIO" }
+  { link: "/#welcome", text: "Sobre nós" },
+  { link: "#contact", text: "Contato" },
+  { link: "/hoami", text: "Conheça Bruno Oliveira" }
 ];
 const dropdownItems = [
-  { link: "#action/3.1", text: "Instalação" },
-  { link: "#action/3.2", text: "Manutenção Preventiva" },
-  { link: "#action/3.3", text: "Manutenção Corretiva" },
-  { link: "#action/3.4", text: "Faça um Orçamento" }
+  { link: "/servicos/0", text: "Manutenção Preventiva e Corretiva" },
+  { link: "/servicos/1", text: "Instalação de equipamentos" },
+  { link: "/servicos/2", text: "Suporte técnico especializado" },
+  { link: "/servicos/3", text: "Avaliação técnica" }
 ];
 
 const navLinksEnd = [
     { link: "/", text: "Home" },
-    { link: "#pricing", text: "Fale conosco" }
+    { link: "https://api.whatsapp.com/send?phone=5511974111995&text=Olá Bruno! Acessei seu site e quero saber mais sobre seus serviços!", text: "Fale conosco" }
   ];
 const MyNavbar = ({logo}) => (
   <Navbar collapseOnSelect expand="lg" className='rounded-5 shadow-lg'>
@@ -41,7 +41,7 @@ const MyNavbar = ({logo}) => (
         </Nav>
         <Nav>
             {navLinksEnd.map((link, index) => (
-                <Nav.Link key={index} href={link.link} className='text-primary'>
+                <Nav.Link key={index} href={link.link} className='text-primary mx-2 fs-6 fw-bold text-decoration-underline'>
                 {link.text}
                 </Nav.Link>
             ))}

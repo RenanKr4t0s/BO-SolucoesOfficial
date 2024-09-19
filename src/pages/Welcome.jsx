@@ -10,7 +10,7 @@ import brunoInstal from '../assets/BrunoInstal.jpeg'
 export default function Welcome(){
     return(
         <Container >
-            <div className="d-flex justify-content-center align-items-center pt-3">
+            <div id="welcome" className="d-flex justify-content-center align-items-center pt-3">
                 <h3 style={{fontSize:"3.5rem"}}>Bem vindo a B.O. Soluções</h3>
             </div>
         <Row className="p-3">

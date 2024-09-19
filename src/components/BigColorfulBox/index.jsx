@@ -1,4 +1,4 @@
-const BigImageBox = ({ children, image }) => {
+const BigColorfulBox = ({ children, image }) => {
     const divStyle = {
         backgroundImage: `url(${image})`,
         backgroundSize: "cover",
@@ -7,12 +7,12 @@ const BigImageBox = ({ children, image }) => {
     };
     const secondStyle={
         position: "relative",
-        backgroundColor: "rgba(0, 118, 252, 0.5)",
+        backgroundColor: "rgba(0, 118, 252, 0.7)",
     };
 
     return (
-        <div style={divStyle}>
-            <div style={secondStyle}>
+        <div style={divStyle} className="rounded">
+            <div style={secondStyle} className="rounded">
                 {children}
             </div>
         </div>
@@ -22,4 +22,4 @@ const BigImageBox = ({ children, image }) => {
 
     
 
-export default BigImageBox;
+export default BigColorfulBox;
