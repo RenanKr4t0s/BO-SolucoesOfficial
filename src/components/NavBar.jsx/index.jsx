@@ -31,12 +31,15 @@ const MyNavbar = ({logo}) => (
             </Nav.Link>
           ))}
           <NavDropdown title="Serviços" id="collapsible-nav-dropdown">
+            <h6  className='text-center text-secondary mx-2' >Nossos serviços</h6>
             {dropdownItems.map((item, index) => (
-              <NavDropdown.Item key={index} href={item.link}>
-                {item.text}
-              </NavDropdown.Item>
+              <>
+                <NavDropdown.Divider />
+                <NavDropdown.Item key={index} href={item.link}>
+                  {item.text}
+                </NavDropdown.Item>
+              </>
             ))}
-            <NavDropdown.Divider />
           </NavDropdown>
         </Nav>
         <Nav>

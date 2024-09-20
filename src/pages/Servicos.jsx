@@ -1,10 +1,10 @@
-import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
-import {Nav} from 'react-bootstrap'
+// BootsReact Components
+import {Nav, Card, CardGroup, Container, Row, Col} from 'react-bootstrap'
 
-import background from "../assets/Bg-from-Jakub.jpg"
-import { Container, Row, Col } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+// Assets
+import background from "../assets/Bg-from-Jakub.webp"
+
+// Components
 import BigColorfulBox from '../components/BigColorfulBox';
 
 function Servicos() {
@@ -14,7 +14,7 @@ function Servicos() {
             <CardGroup className='gap-3 p-3 my-2'>
             <Row xs={1} md={2} lg={4} className="g-4">
                 <Col>
-                    <Nav.Link href='/servicos/0'>
+                    <Nav.Link href='/servicos/0' data-aos="flip-left">
                         <Card>
                             <Card.Header className='h1 text-center'><i class="bi bi-wrench-adjustable-circle"></i></Card.Header>
                                 <Card.Body>
@@ -30,7 +30,7 @@ function Servicos() {
                     </Nav.Link>
                 </Col>
                 <Col>
-                    <Nav.Link href='/servicos/1'>
+                    <Nav.Link href='/servicos/1' data-aos="flip-left">
                         <Card>
                             <Card.Header className='h1 text-center'><i class="bi bi-tools"></i></Card.Header>
                                 <Card.Body>
@@ -46,7 +46,7 @@ function Servicos() {
                     </Nav.Link>
                 </Col>
                 <Col>
-                    <Nav.Link href='/servicos/2'>
+                    <Nav.Link href='/servicos/2' data-aos="flip-right">
                         <Card>
                             <Card.Header className='h1 text-center'><i class="bi bi-telephone-plus"></i></Card.Header>
                                 <Card.Body>
@@ -62,7 +62,7 @@ function Servicos() {
                     </Nav.Link>
                 </Col>
                 <Col>
-                    <Nav.Link href='/servicos/3'>
+                    <Nav.Link href='/servicos/3' data-aos="flip-right">
                         <Card>
                             <Card.Header className='h1 text-center'><i class="bi bi-file-text"></i></Card.Header>
                                 <Card.Body>

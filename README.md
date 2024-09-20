@@ -1,6 +1,6 @@
-# B.O. Soluções - Site Institucional
+# B.O Soluções - Site Institucional
 
-Este é o repositório oficial do site institucional da **B.O. Soluções**, desenvolvido com **React** e **React-Bootstrap**. O site tem como objetivo apresentar a empresa e seus serviços voltados à instalação de equipamentos de proteção contra incêndio.
+Este é o repositório oficial do site institucional da **B.O Soluções**, desenvolvido com **React** e **React-Bootstrap**. O site tem como objetivo apresentar a empresa e seus serviços voltados à instalação de equipamentos de proteção contra incêndio.
 
 Este projeto foi inicializado com [Create React App](https://github.com/facebook/create-react-app).
 

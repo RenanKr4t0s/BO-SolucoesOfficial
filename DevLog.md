@@ -1,9 +1,9 @@
-# Plano de Desenvolvimento - B.O. Soluções
+# Plano de Desenvolvimento - B.O Soluções
 
 ## A incluir no readme
 - Começamos a usar React Router Dom
 
-Este documento detalha as etapas necessárias para o desenvolvimento e lançamento do site institucional da **B.O. Soluções**.
+Este documento detalha as etapas necessárias para o desenvolvimento e lançamento do site institucional da **B.O Soluções**.
 
 ## Links importantes
 - [ChatGPT](https://chatgpt.com/c/66e05f2f-c190-800e-a4ad-23679a8f9de0)
@@ -46,7 +46,7 @@ Este documento detalha as etapas necessárias para o desenvolvimento e lançamen
   - Incluir uma imagem ou ícone relacionado à empresa.
   
 - [x] **Seção de Serviços**:
-  - Listar os principais serviços oferecidos pela B.O. Soluções.
+  - Listar os principais serviços oferecidos pela B.O Soluções.
   - Cada serviço deve ter um ícone, título e breve descrição.
   
 - [ ] **Seção de Clientes/Soluções Realizadas**:
@@ -56,7 +56,7 @@ Este documento detalha as etapas necessárias para o desenvolvimento e lançamen
 
 ### 4. Seção de Contato
 
-- [ ] **Botão Flutuante Whatsapp**:
+- [X] **Botão Flutuante Whatsapp**:
   - Incluir botão flutuante que leva para contato = Home
 
 - [X] Incluir **informações de contato** adicionais:
@@ -65,19 +65,19 @@ Este documento detalha as etapas necessárias para o desenvolvimento e lançamen
   - Email para contato comercial.
 
 ### 5. Estilização e Responsividade
-- [ ] Configurar biblioteca de Animation e aplicar a todos os componentes
+- [X] Configurar biblioteca de Animation e aplicar a todos os componentes
 - [x] Ajustar o **layout responsivo** usando o grid do **React-Bootstrap** para garantir que o site funcione bem em dispositivos móveis e tablets.
 - [x] Testar em diferentes tamanhos de tela e ajustar margens, paddings e tamanhos de fontes conforme necessário.
 
 ### 6. Otimização e Acessibilidade
 
-- [ ] **Otimizar imagens** para melhorar o tempo de carregamento.
-- [ ] Refatorar os componentes um a um para organização.
-- [ ] Excluir todo o conteúdo não utilizado da página.
+- [X] **Otimizar imagens** para melhorar o tempo de carregamento.
+- [X] Refatorar os componentes um a um para organização.
+- [X] Excluir todo o conteúdo não utilizado da página.
 - [ ] Verificar e corrigir eventuais problemas de **acessibilidade** (uso de ARIA, contraste, tamanho de fontes).
-- [ ] Verificar o SEO básico (títulos, meta descrições, tags de imagem alt).
-- [ ] Incluir Tags de SEO do cliente
-- [ ] Copiar Tags de SEO do Projeto anterior
+- [X] Verificar o SEO básico (títulos, meta descrições, tags de imagem alt).
+- [X] Incluir Tags de SEO do cliente
+- [X] Copiar Tags de SEO do Projeto anterior
 
 ### 7. Implementar o Footer
 
@@ -85,17 +85,17 @@ Este documento detalha as etapas necessárias para o desenvolvimento e lançamen
 
 ### 8. Testes e Lançamento
 
-- [ ] Testar todas as funcionalidades e interações em múltiplos navegadores (Chrome, Firefox, Edge).
-- [ ] Verificar que todos os links estão funcionando corretamente.
+- [x] Testar todas as funcionalidades e interações em múltiplos navegadores (Chrome, Firefox, Edge).
+- [x] Verificar que todos os links estão funcionando corretamente.
 - [ ] Fazer ajustes finais baseados no feedback do cliente (BrunoBot).
-- [ ] Subir o projeto final no **GitHub Pages** ou em um servidor de hospedagem (ex.: Vercel, Netlify).
+- [ ] Subir o projeto final no domínio comprado.
 
 ## Tarefas Adicionais
-- [ ] Comprar o domínio personalizado
+- [x] Comprar o domínio personalizado
 - [ ] Configurar um domínio personalizado
 - [ ] Testar o desempenho do site em ferramentas como **Google PageSpeed Insights**.
-- [ ] Gerar favicons e adicionar o suporte a diferentes plataformas (ícones de navegador, ícones para mobile).
+- [x] Gerar favicons e adicionar o suporte a diferentes plataformas (ícones de navegador, ícones para mobile).
 
 ---
 
-Desenvolvido por **JamesBot** e **Renan Ramos** para **BrunoBot**. Vamos garantir que o site da B.O. Soluções seja eficiente e profissional!
+Desenvolvido por **JamesBot** e **Renan Ramos** para **Bruno**. Vamos garantir que o site da B.O Soluções seja eficiente e profissional!

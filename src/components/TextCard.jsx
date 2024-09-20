@@ -10,7 +10,10 @@ function TextCard() {
             Iniciamos a empresa em 2022, mas seu criador já possuía mais de 10 anos de experiência na Ascael Comercial LTDA, totalizamos assim mais de 12 anos de experiência com produtos de proteção contra incêndio da fabricação a instalação.
             Oferecemos assim soluções eficientes com a confiança, desde a instalação até a manutenção e suporte técnico.
         </Card.Text>
-        <Card.Link href="/hoami">Conheça o Bruno</Card.Link>
+        <Card.Link href="/hoami">
+          <i class="bi bi-plus-square-dotted me-1"></i>
+          Conheça o Bruno!
+        </Card.Link>
       </Card.Body>
     </Card>
   );

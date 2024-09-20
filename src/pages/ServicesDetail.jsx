@@ -1,8 +1,8 @@
 import React from 'react'
-import image1 from '../assets/Manutencao.jpeg'
-import image2 from '../assets/Instalacao.jpeg'
-import image3 from '../assets/Suporte.jpeg'
-import image4 from '../assets/Avaliacao.jpeg'
+import image1 from '../assets/Manutencao.webp'
+import image2 from '../assets/Instalacao.webp'
+import image3 from '../assets/Suporte.webp'
+import image4 from '../assets/Avaliacao.webp'
 
 import { useParams } from 'react-router-dom';
 
@@ -39,19 +39,19 @@ const ServicesDetail = () => {
   return (
     <div data-section className="overflow-x-hidden" >
         <div className="bg-primary shadow-lg row text-center align-items-center">
-            <h2 className="h1 text-warning my-5">
-              <i className={`bi ${servicos[id].objectIcon} me-3`}></i>
+            <h2 className="h1 text-warning my-5" data-aos="zoom-out">
+              <i className={`bi ${servicos[id].objectIcon} me-3`} ></i>
                {servicos[id].objectTitle} 
               <i class={`bi ${servicos[id].objectIcon} ms-3`}></i>
             </h2>
         </div>
         <div className="container mt-5 px-5 pb-5">
             <div className='row justify-content-center'>
-                <div className='col-lg-5 col-12 bg-warning shadow rounded my-auto'>
+                <div className='col-lg-5 col-12 bg-warning shadow rounded my-auto' data-aos="zoom-out-right">
                     <img className='my-2 img-fluid rounded shadow' src={servicos[id].objectImage} alt="Novo logo da MS"></img>
                 </div>
                 <div className='col-lg-7 col-12 ps-4'>
-                  <p className="h6 lh-lg text-start">
+                  <p className="h5 lh-lg text-end" data-aos="zoom-in">
                     {servicos[id].objectText}
                   </p>
                 </div>

@@ -4,14 +4,16 @@ import { Row, Col, Button,} from 'react-bootstrap';
 const HomeTexts = () => {
   return (
     <>
-      <Row style={{}} className='text-black'>
+      <Row style={{}} className='text-black' data-aos="zoom-in-up">
                 <Col xs={10} md={5} className="mx-4 my-5 d-flex justify-content-center align-items-center">
                     <Row className='text-center m-4 p-3 rounded-5 shadow-lg'style={{backgroundColor:"rgba(255, 255, 255, 0.5)"}}>
-                        <h1 className="my-4 opacity-100" style={{fontSize:"3.5rem"}} >B.O SOLUÇÕES</h1>
-                        <h2 className="lh-lg">Seu B.O.</h2>
+                        <h1 className="my-4 opacity-100 fw-semibold fst-italic" style={{fontSize:"3.5rem"}} >B.O SOLUÇÕES</h1>
+                        <h2 className="lh-lg">Seu B.O</h2>
                         <h2 className="lh-base">nossa solução</h2>
                     <div>
-                        <Button className='my-3'>Entre em contato</Button>
+                        <Button className='my-3' href="https://api.whatsapp.com/send?phone=5511974111995&text=Olá Bruno! Acessei seu site e quero saber mais sobre seus serviços!">
+                            Entre em contato
+                        </Button>
                     </div>
                     </Row>
                 </Col>

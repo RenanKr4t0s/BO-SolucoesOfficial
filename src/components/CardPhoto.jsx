@@ -14,7 +14,9 @@ function CardPhoto({image}) {
                     <Card.Text>
                         O Criador da B.O Soluções.
                     </Card.Text>
-                    <Card.Link href="#">Fale comigo!!</Card.Link>
+                    <Card.Link href="https://api.whatsapp.com/send?phone=5511974111995&text=Olá Bruno! Acessei seu site e quero saber mais sobre seus serviços!">
+                        Fale comigo!!
+                    </Card.Link>
                 </Card.Body>
             </Col>
         </Row>
