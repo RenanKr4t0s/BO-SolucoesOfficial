@@ -35,7 +35,7 @@ const MyNavbar = ({logo}) => (
             {dropdownItems.map((item, index) => (
               <>
                 <NavDropdown.Divider />
-                <NavDropdown.Item key={index} href={item.link}>
+                <NavDropdown.Item key={index+10} href={item.link}>
                   {item.text}
                 </NavDropdown.Item>
               </>
@@ -44,7 +44,7 @@ const MyNavbar = ({logo}) => (
         </Nav>
         <Nav>
             {navLinksEnd.map((link, index) => (
-                <Nav.Link key={index} href={link.link} className='text-primary mx-2 fs-6 fw-bold text-decoration-underline'>
+                <Nav.Link key={index+100} href={link.link} className='text-primary mx-2 fs-6 fw-bold text-decoration-underline'>
                 {link.text}
                 </Nav.Link>
             ))}

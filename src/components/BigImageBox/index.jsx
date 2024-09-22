@@ -3,7 +3,7 @@ const BigImageBox = ({ children, image }) => {
         backgroundImage: `url(${image})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
-        width: "100vw",
+        width: "100%",
         position: "relative",
     };
 

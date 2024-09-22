@@ -2,9 +2,9 @@ import {Card, Image, Col, Row} from 'react-bootstrap';
 
 function CardPhoto({image}) {
   return (
-    <Card border="warning shadow-lg" style={{ width: '24rem' }}>
+    <Card border="warning shadow-lg" style={{ width: '22rem'}}>
         <Row>
-            <Col xs={3} className='align-content-center'>
+            <Col xs={3} className='align-content-center m-2'>
                 <Image src={image} width="100" rounded />
             </Col>
             <Col>

@@ -14,16 +14,16 @@ export default function Welcome(){
                 <h3 style={{fontSize:"3.5rem"}} data-aos="zoom-in-up">Bem vindo a B.O Soluções</h3>
             </div>
             <Row className="p-3">
-              <Col xs={12} md={8} className="p-3 my-auto">
-                <Row className="p-3" data-aos="zoom-out-right">
+              <Col xs={12} md={8} className="p-3">
+                <div className="p-2 me-2" data-aos="zoom-out-right">
                     <CardPhoto image={faceImage}/>
-                </Row>
-                <Row className="p-3" data-aos="zoom-out-right">
+                </div>
+                <div className="p-2 " data-aos="zoom-out-right">
                     <TextCard/>
-                </Row>
+                </div>
               </Col>
-              <Col className=" text-align-center p-3" data-aos="zoom-out-left" >
-                <CentralImage image={brunoInstal} alternativeText="Imagem provisória" />
+              <Col xs={12} md={4} className="text-align-center p-3" data-aos="flip-up">
+                <CentralImage image={brunoInstal} alternativeText="Bruno Instalando Detector" />
               </Col>
             </Row>
       </Container>

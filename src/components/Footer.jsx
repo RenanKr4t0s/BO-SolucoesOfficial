@@ -5,10 +5,11 @@ import { Row, Col } from 'react-bootstrap'
 
 const Footer = () => {
   return (
-    <footer id='contact' className='mt-5'>
-      <BigColorfulBox image={background}>
+    
+    <BigColorfulBox image={background}>
+      <footer id='contact' className='mt-5'>
         <div className='shadow-lg py-4 mt-2'>
-          <div className="container px-2 pb-1">
+          <div className="container px-auto pb-1">
             <Row>
                 <Col md={4} xs={12} >
                     <h2 className='text-white mt-3 h1' data-aos="fade-down" >Entre em contato</h2>
@@ -51,8 +52,8 @@ const Footer = () => {
             </Row>
           </div>
         </div>       
-      </BigColorfulBox>
-    </footer>
+      </footer>
+    </BigColorfulBox>
   )
 }
 
