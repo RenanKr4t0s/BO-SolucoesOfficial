@@ -3,7 +3,9 @@ import { Navbar, Container, Nav, NavDropdown, Image } from 'react-bootstrap';
 const navLinksStart = [
   { link: "/#welcome", text: "Sobre nós" },
   { link: "#contact", text: "Contato" },
-  { link: "/hoami", text: "Conheça Bruno Oliveira" }
+  { link: "/ascael", text: "Tecnico Ascael" },
+  { link: "/hoami", text: "Conheça Bruno" }
+  
 ];
 const dropdownItems = [
   { link: "/servicos/0", text: "Manutenção Preventiva e Corretiva" },
@@ -14,23 +16,24 @@ const dropdownItems = [
 
 const navLinksEnd = [
     { link: "/", text: "Home" },
+    { link: "https://www.bosolucoes.tec.br/", text: "Compre Produtos"},
     { link: "https://api.whatsapp.com/send?phone=5511974111995&text=Olá Bruno! Acessei seu site e quero saber mais sobre seus serviços!", text: "Fale conosco" }
   ];
 const MyNavbar = ({logo}) => (
-  <Navbar collapseOnSelect expand="lg" className='rounded-5 shadow-lg'>
+  <Navbar collapseOnSelect expand="lg" className='rounded-5 shadow-lg bg-light opacity-75'>
     <Container>
       <Navbar.Brand href="/">
       <Image src={logo} width={90}/>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="me-auto">
+        <Nav className="me-auto color-primary">
           {navLinksStart.map((link, index) => (
-            <Nav.Link key={index} href={link.link}>
+            <Nav.Link key={index} href={link.link} className="text-dark">
               {link.text}
             </Nav.Link>
           ))}
-          <NavDropdown title="Serviços" id="collapsible-nav-dropdown">
+          <NavDropdown title="Serviços" id="collapsible-nav-dropdown" className="text-dark">
             <h6  className='text-center text-secondary mx-2' >Nossos serviços</h6>
             {dropdownItems.map((item, index) => (
               <>

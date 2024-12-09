@@ -5,7 +5,7 @@ import TextCard from "../components/TextCard.jsx";
 
 import { Container, Row, Col } from 'react-bootstrap';
 import faceImage from '../assets/BrunoFace.webp'
-import brunoInstal from '../assets/BrunoInstal.webp'
+import brunoInstal from '../assets/new/b.oSolucoesCamisaCinza.webp'
 
 export default function Welcome(){
     return(

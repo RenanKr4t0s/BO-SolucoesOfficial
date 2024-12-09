@@ -14,14 +14,17 @@ import Servicos from './Servicos.jsx';
 import Welcome from './Welcome.jsx';
 import HoAmI from './HoAmI.jsx';
 import ServicesDetail from './ServicesDetail.jsx';
+import Ascael from './Ascael.jsx';
 
 //Componentes
 import HomeTexts from '../components/HomeTexts.jsx';
 import AltTexts from '../components/AltTexts.jsx';
 import Footer from '../components/Footer.jsx';
+import EndFooter from '../components/EndFooter.jsx';
 
 //Elementos
 import avatar from '../assets/BrunoFace.webp'
+
 
 // Router
 const routerTop = createBrowserRouter([
@@ -40,7 +43,11 @@ const routerTop = createBrowserRouter([
       {
         path:"/servicos/:id",
         element:<AltTexts />
-      }
+      },
+      {
+        path:"/ascael",
+        element: <AltTexts/>,
+      },
    ]
 	},
 ])
@@ -61,7 +68,11 @@ const routerBottom = createBrowserRouter([
       {
         path:"/servicos/:id",
         element:<ServicesDetail/>
-      }
+      },
+      {
+        path:"/ascael",
+        element: <Ascael/>,
+      },
    ]
 	}
 ])
@@ -88,6 +99,7 @@ function App() {
       <RouterProvider router={routerBottom} />
       <Servicos />
       <Footer />
+      <EndFooter />
     </div>
   );
 }

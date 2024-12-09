@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '../assets/BrunoBreno.webp'
+import image from '../assets/BrunoInstal.webp'
 
 const HoAmI = () => {
   return (
