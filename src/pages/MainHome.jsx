@@ -3,6 +3,7 @@ import BigImageBox from '../components/BigImageBox/index';
 import MyNavbar from '../components/NavBar.jsx/index.jsx';
 import Carousel from '../components/Carousel.jsx';
 
+
 //Libraryes
 import { Container,} from 'react-bootstrap';
 import { Outlet } from 'react-router-dom';
@@ -14,12 +15,14 @@ import background from '../assets/Bg-from-Jakub.webp'
 
 export default function MainHome(){
     return(
+        <>
     <BigImageBox image={background}>
         <Container fluid>
             <MyNavbar logo={logo} />
             <Outlet/>
-
         </Container>
     </BigImageBox>
+    <Carousel />
+        </>
     )
 }

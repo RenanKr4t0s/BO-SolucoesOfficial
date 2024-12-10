@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image } from 'react-bootstrap';
+import { Carousel, Image } from 'react-bootstrap';
 
 // Pegando as imagens
 import Image1 from '../assets/caroussel/Ascael_Alarme_Incendio.webp';
@@ -7,36 +7,30 @@ import Image2 from '../assets/caroussel/Ascael_Centrais.webp';
 import Image3 from '../assets/caroussel/Ascael_Linha_1024.webp';
 import Image4 from '../assets/caroussel/Ascael_Modulos.webp';
 
-const Carousel = () => {
+const CarouselCentral = () => {
   return (
-    <div className=''>
-        <div id="carouselExample" className="carousel slide">
-        <div className="carousel-inner">
-            <div className="carousel-item active">
-            <Image src={Image1} className="d-block w-100" alt="Ascael Alarme Incendio" />
-            </div>
-            <div className="carousel-item">
-            <Image src={Image2} className="d-block w-100" alt="Ascael Centrais" />
-            </div>
-            <div className="carousel-item">
-            <Image src={Image3} className="d-block w-100" alt="Ascael Linha 1024" />
-            </div>
-            <div className="carousel-item">
-            <Image src={Image4} className="d-block w-100" alt="Ascael Modulos" />
-            </div>
-        </div>
-        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span className="visually-hidden">Previous</span>
-        </button>
-        <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-            <span className="visually-hidden">Next</span>
-        </button>
-        </div>
+    <div className="d-flex justify-content-center mt-3">
+      <Carousel
+        className="w-100 w-md-75"
+        style={{ maxWidth: "780px" }} // Limita a largura máxima em telas grandes
+      >
+        <Carousel.Item style={{height:"420px"}}>
+          <Image className="d-block w-100 rounded" src={Image1} alt="Ascael Alarme Incendio" />
+        </Carousel.Item>
+        <Carousel.Item style={{height:"420px"}}>
+          <Image className="d-block w-100 rounded" src={Image2} alt="Ascael Centrais" />
+        </Carousel.Item>
+        <Carousel.Item style={{height:"420px"}}>
+          <Image className="d-block w-100 rounded" src={Image3} alt="Ascael Linha 1024" />
+        </Carousel.Item>
+        <Carousel.Item style={{height:"420px"}}>
+          <Image className="d-block w-100 rounded" src={Image4} alt="Ascael Módulos" />
+        </Carousel.Item>
+      </Carousel>
     </div>
+
   );
 };
 
-export default Carousel;
+export default CarouselCentral;
 
