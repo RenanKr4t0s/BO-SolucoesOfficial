@@ -1,6 +1,7 @@
 //Components
 import BigImageBox from '../components/BigImageBox/index';
 import MyNavbar from '../components/NavBar.jsx/index.jsx';
+import Carousel from '../components/Carousel.jsx';
 
 //Libraryes
 import { Container,} from 'react-bootstrap';
@@ -17,6 +18,7 @@ export default function MainHome(){
         <Container fluid>
             <MyNavbar logo={logo} />
             <Outlet/>
+
         </Container>
     </BigImageBox>
     )

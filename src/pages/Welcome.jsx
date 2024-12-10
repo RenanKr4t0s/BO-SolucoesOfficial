@@ -9,7 +9,9 @@ import brunoInstal from '../assets/new/b.oSolucoesCamisaCinza.webp'
 
 export default function Welcome(){
     return(
-        <Container >
+      
+      //style para acertar container explodindo a aplicação
+      <Container style={{ maxWidth: "100%", overflowX: "hidden" }}>
             <div id="welcome" className="d-flex justify-content-center align-items-center pt-3 fst-italic">
                 <h3 style={{fontSize:"3.5rem"}} data-aos="zoom-in-up">Bem vindo a B.O Soluções</h3>
             </div>

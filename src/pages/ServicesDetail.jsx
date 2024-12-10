@@ -8,7 +8,6 @@ import { useParams } from 'react-router-dom';
 
 const ServicesDetail = () => {
   const {id} = useParams();
-  const cawab = "cawab"
   const servicos = [
     {
       objectImage : image1,
