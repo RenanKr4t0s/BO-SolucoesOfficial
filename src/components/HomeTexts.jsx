@@ -9,8 +9,8 @@ const HomeTexts = () => {
                 <Col xs={10} md={5} className="mx-4 my-5 d-flex justify-content-center align-items-center">
                     <Row className='text-center m-4 p-3 rounded-5 shadow-lg'style={{backgroundColor:"rgba(255, 255, 255, 0.8)"}}>
                         <h1 className="opacity-100 fw-semibold fst-italic"><Image src={logo} width={200}/></h1>
-                        <h3 className="lh-lg">prevenção contra incêndio</h3>
-                        <h3 className="lh-base">Seu B.O nossa solução</h3>
+                        <h3 className="lh-lg">Prevenção contra incêndio</h3>
+                        <h3 className="lh-base">Seu B.O, nossa solução!</h3>
                     <div>
                         <Button className='my-3' href="https://api.whatsapp.com/send?phone=5511974111995&text=Olá Bruno! Acessei seu site e quero saber mais sobre seus serviços!">
                             Entre em contato

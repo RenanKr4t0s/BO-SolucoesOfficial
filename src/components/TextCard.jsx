@@ -4,7 +4,7 @@ function TextCard() {
   return (
     <Card className='border-white shadow-lg'>
       <Card.Body className='lh-lg'>
-        <Card.Title className="mb-1">Porque escolher a B.O?</Card.Title>
+        <Card.Title className="mb-1">Por que escolher a B.O?</Card.Title>
         <Card.Subtitle className="mb-2 text-muted">Experiência desde a fabricação.</Card.Subtitle>
         <Card.Text>
             Iniciamos a empresa em 2022, mas seu criador já possuía mais de 10 anos de experiência na Ascael Comercial LTDA, totalizamos assim mais de 12 anos de experiência com produtos de proteção contra incêndio da fabricação a instalação.

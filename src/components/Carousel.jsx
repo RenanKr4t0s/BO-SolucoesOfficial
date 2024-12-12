@@ -9,7 +9,7 @@ import Image4 from '../assets/caroussel/Ascael_Modulos.webp';
 
 const CarouselCentral = () => {
   return (
-    <div className="d-flex justify-content-center mt-3">
+    <div className="d-flex justify-content-center my-2">
       <Carousel
         className="w-100 w-md-75"
         style={{ maxWidth: "780px" }} // Limita a largura máxima em telas grandes

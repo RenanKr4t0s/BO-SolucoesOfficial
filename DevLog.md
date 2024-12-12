@@ -6,7 +6,6 @@
 Este documento detalha as etapas necessárias para o desenvolvimento e lançamento do site institucional da **B.O Soluções**.
 
 ## Links importantes
-- [ChatGPT](https://chatgpt.com/c/66e05f2f-c190-800e-a4ad-23679a8f9de0)
 - [CNS Serviços Elétricos](https://www.cnservicoseletricos.com.br/)
 - [React Bootstrap Documentation](https://react-bootstrap.netlify.app/docs/components/)
 - [Bootstrap Customization](https://getbootstrap.com/docs/5.3/customize/)
@@ -87,13 +86,13 @@ Este documento detalha as etapas necessárias para o desenvolvimento e lançamen
 
 - [x] Testar todas as funcionalidades e interações em múltiplos navegadores (Chrome, Firefox, Edge).
 - [x] Verificar que todos os links estão funcionando corretamente.
-- [ ] Fazer ajustes finais baseados no feedback do cliente (BrunoBot).
-- [ ] Subir o projeto final no domínio comprado.
+- [x] Fazer ajustes finais baseados no feedback do cliente (BrunoBot).
+- [x] Subir o projeto final no domínio comprado.
 
 ## Tarefas Adicionais
 - [x] Comprar o domínio personalizado
-- [ ] Configurar um domínio personalizado
-- [ ] Testar o desempenho do site em ferramentas como **Google PageSpeed Insights**.
+- [x] Configurar um domínio personalizado
+- [x] Testar o desempenho do site em ferramentas como **Google PageSpeed Insights**.
 - [x] Gerar favicons e adicionar o suporte a diferentes plataformas (ícones de navegador, ícones para mobile).
 
 ---

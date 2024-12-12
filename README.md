@@ -44,10 +44,11 @@ O projeto está estruturado da seguinte forma:
 │   ├── /components/      # Componentes React reutilizáveis
 │   ├── /pages/           # Páginas do site
 │   ├── /assets/          # Arquivos de mídia e estilos
-│   └── App.js            # Componente principal da aplicação
+│   └── index.js          # Componente principal da aplicação
 │
 ├── package.json          # Dependências e scripts
-└── README.md             # Documentação do projeto
+├── README.md             # Documentação do projeto
+└── DevLog.md             # Log de desenvolvimento do projeto
 ```
  No gpt here
 

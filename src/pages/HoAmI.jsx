@@ -13,8 +13,8 @@ const HoAmI = () => {
         </div>
         <div className="container mt-5 px-5 pb-5">
             <div className='row justify-content-center'>
-                <div className='col-lg-4 col-12 bg-warning shadow rounded my-auto' data-aos="zoom-out-right">
-                    <img className='my-2 img-fluid rounded shadow' src={image} alt="Imagem de Bruno e seu irmão gemeo"></img>
+                <div className='col-lg-4 col-12 my-auto' data-aos="zoom-out-right">
+                    <img className='img-fluid rounded shadow' src={image} alt="Bruno instalando Módulos"></img>
                 </div>
                 <div className='col-lg-8 col-12 ps-4'>
                 <p className="h6 lh-lg text-start" data-aos="zoom-in">

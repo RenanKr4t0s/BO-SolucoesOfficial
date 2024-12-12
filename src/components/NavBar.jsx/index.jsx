@@ -3,7 +3,7 @@ import { Navbar, Container, Nav, NavDropdown, Image } from 'react-bootstrap';
 const navLinksStart = [
   { link: "/#welcome", text: "Sobre nós" },
   { link: "#contact", text: "Contato" },
-  { link: "/ascael", text: "Tecnico Ascael" },
+  { link: "/ascael", text: "Técnico Ascael" },
   { link: "/hoami", text: "Conheça Bruno" }
   
 ];
@@ -28,9 +28,9 @@ const MyNavbar = ({logo}) => (
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="me-auto color-primary">
-          {navLinksStart.map((link, index) => (
-            <Nav.Link key={index} href={link.link} className="text-dark">
-              {link.text}
+          {navLinksStart.map((item, index) => (
+            <Nav.Link key={index} href={item.link} className="text-dark">
+              {item.text}
             </Nav.Link>
           ))}
           <NavDropdown title="Serviços" id="collapsible-nav-dropdown" className="text-dark">
@@ -46,9 +46,9 @@ const MyNavbar = ({logo}) => (
           </NavDropdown>
         </Nav>
         <Nav>
-            {navLinksEnd.map((link, index) => (
-                <Nav.Link key={index+100} href={link.link} className='text-primary mx-2 fs-6 fw-bold text-decoration-underline'>
-                {link.text}
+            {navLinksEnd.map((item, index) => (
+                <Nav.Link key={index+100} href={item.link} className='text-primary mx-2 fs-6 fw-bold text-decoration-underline'>
+                {item.text}
                 </Nav.Link>
             ))}
         </Nav>

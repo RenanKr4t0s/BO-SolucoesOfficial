@@ -7,7 +7,7 @@ const BigColorfulBox = ({ children, image }) => {
     };
     const secondStyle={
         position: "relative",
-        backgroundColor: "rgba(0, 118, 252, 0.6)",
+        backgroundColor: "rgba(0, 118, 252, 0.8)",
     };
 
     return (

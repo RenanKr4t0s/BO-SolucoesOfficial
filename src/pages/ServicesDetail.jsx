@@ -47,7 +47,7 @@ const ServicesDetail = () => {
         <div className="container mt-5 px-5 pb-5">
             <div className='row justify-content-center'>
                 <div className='col-lg-5 col-12 my-auto' data-aos="zoom-out-right">
-                    <img className='img-fluid rounded shadow rounded' src={servicos[id].objectImage} alt="Novo logo da MS"></img>
+                    <img className='img-fluid shadow rounded' src={servicos[id].objectImage} alt="Novo logo da MS"></img>
                 </div>
                 <div className='col-lg-7 col-12 ps-4'>
                   <p className="h5 lh-lg text-end" data-aos="zoom-in">

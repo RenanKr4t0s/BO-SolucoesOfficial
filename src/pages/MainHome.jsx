@@ -16,13 +16,13 @@ import background from '../assets/Bg-from-Jakub.webp'
 export default function MainHome(){
     return(
         <>
-    <BigImageBox image={background}>
-        <Container fluid>
-            <MyNavbar logo={logo} />
-            <Outlet/>
-        </Container>
-    </BigImageBox>
-    <Carousel />
+            <BigImageBox image={background}>
+                <Container fluid>
+                    <MyNavbar logo={logo} />
+                    <Outlet/>
+                </Container>
+            </BigImageBox>
+            <Carousel/>
         </>
     )
 }
