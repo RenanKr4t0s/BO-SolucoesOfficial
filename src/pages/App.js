@@ -21,6 +21,7 @@ import HomeTexts from '../components/HomeTexts.jsx';
 import AltTexts from '../components/AltTexts.jsx';
 import Footer from '../components/Footer.jsx';
 import EndFooter from '../components/EndFooter.jsx';
+import Carousel from '../components/Carousel.jsx';
 
 //Elementos
 import avatar from '../assets/BrunoFace.webp'
@@ -77,6 +78,31 @@ const routerBottom = createBrowserRouter([
 	}
 ])
 
+const routerCarousel = createBrowserRouter([
+  {
+		path:"/",
+		element: <><Outlet/></>,
+    children:[
+      {
+      path:"/",
+		  element: <></>
+      },
+      {
+        path:"/hoami",
+        element: <Carousel/>,
+      },
+      {
+        path:"/servicos/:id",
+        element: <Carousel/>,
+      },
+      {
+        path:"/ascael",
+        element: <Carousel/>,
+      },
+   ]
+	}
+])
+
 
 
 
@@ -98,6 +124,7 @@ function App() {
       <RouterProvider router={routerTop} />
       <RouterProvider router={routerBottom} />
       <Servicos />
+      <RouterProvider router={routerCarousel} />
       <Footer />
       <EndFooter />
     </div>

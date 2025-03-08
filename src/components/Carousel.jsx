@@ -3,6 +3,8 @@ import { Carousel, Image } from 'react-bootstrap';
 
 // Pegando as imagens
 import Image1 from '../assets/caroussel/Ascael_Alarme_Incendio.webp';
+import ImageLogo from '../assets/caroussel/Logo3d.png';
+import CAXi from '../assets/caroussel/editedCaxI.png';
 import Image2 from '../assets/caroussel/Ascael_Centrais.webp';
 import Image3 from '../assets/caroussel/Ascael_Linha_1024.webp';
 import Image4 from '../assets/caroussel/Ascael_Modulos.webp';
@@ -14,16 +16,22 @@ const CarouselCentral = () => {
         className="w-100 w-md-75"
         style={{ maxWidth: "780px" }} // Limita a largura máxima em telas grandes
       >
-        <Carousel.Item style={{height:"420px"}}>
+        <Carousel.Item style={{height:"440px"}}>
           <Image className="d-block w-100 rounded" src={Image1} alt="Ascael Alarme Incendio" />
         </Carousel.Item>
-        <Carousel.Item style={{height:"420px"}}>
+        <Carousel.Item style={{height:"440px"}}>
+          <Image className="d-block w-100 rounded" src={ImageLogo} alt="Logo em 3d da B.O Soluções" />
+        </Carousel.Item>
+        <Carousel.Item style={{height:"440px"}}>
           <Image className="d-block w-100 rounded" src={Image2} alt="Ascael Centrais" />
         </Carousel.Item>
-        <Carousel.Item style={{height:"420px"}}>
+        <Carousel.Item style={{height:"440px"}}>
           <Image className="d-block w-100 rounded" src={Image3} alt="Ascael Linha 1024" />
         </Carousel.Item>
-        <Carousel.Item style={{height:"420px"}}>
+        <Carousel.Item style={{height:"440px"}}>
+          <Image className="d-block w-100 rounded" src={CAXi} alt="Central CAX-i Ascael" />
+        </Carousel.Item>
+        <Carousel.Item style={{height:"440px"}}>
           <Image className="d-block w-100 rounded" src={Image4} alt="Ascael Módulos" />
         </Carousel.Item>
       </Carousel>

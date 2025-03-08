@@ -19,7 +19,7 @@ const Ascael = () => {
                 <div className='col-lg-6 col-12 ps-4'>
                 <p className="h4 lh-lg text-start mt-4" data-aos="zoom-in">
                     <span className="text-primary cssanimation effect3d"></span>
-                    Com mais de 40 anos de tradição no mercado, a <span className="text-primary cssanimation effect3d">Ascael</span> é sinônimo de qualidade e inovação em equipamentos de proteção contra incêndio. Como um dos poucos técnicos com <span className="text-primary cssanimation effect3d">experiência direta</span>de trabalho dentro dessa renomada empresa, trago para você o mesmo padrão de excelência que faz da Ascael uma referência no setor.
+                    Com mais de 40 anos de tradição no mercado, a <span className="text-primary cssanimation effect3d">Ascael</span> é sinônimo de qualidade e inovação em equipamentos de proteção contra incêndio. Como um dos poucos técnicos com <span className="text-primary cssanimation effect3d">experiência direta</span> de trabalho dentro dessa renomada empresa, trago para você o mesmo padrão de excelência que faz da Ascael uma referência no mercado.
                     </p>
                 </div>
             </div>
