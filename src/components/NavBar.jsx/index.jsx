@@ -1,4 +1,5 @@
 import { Navbar, Container, Nav, NavDropdown, Image } from 'react-bootstrap';
+import BigWhiteBox from '../BigWhiteBox';
 
 const navLinksStart = [
   { link: "/#welcome", text: "Sobre nós" },
@@ -20,8 +21,9 @@ const navLinksEnd = [
     { link: "https://api.whatsapp.com/send?phone=5511974111995&text=Olá Bruno! Acessei seu site e quero saber mais sobre seus serviços!", text: "Fale conosco" }
   ];
 const MyNavbar = ({logo}) => (
-  <Navbar collapseOnSelect expand="lg" className='rounded-5 shadow-lg bg-white opacity-50'>
-    <Container>
+  <BigWhiteBox>
+  <Navbar collapseOnSelect expand="lg">
+    <Container >
       <Navbar.Brand href="/">
       <Image src={logo} width={90}/>
       </Navbar.Brand>
@@ -34,6 +36,8 @@ const MyNavbar = ({logo}) => (
             </Nav.Link>
           ))}
           <NavDropdown title="Serviços" id="collapsible-nav-dropdown" className="text-dark fw-semibold">
+            <div  className='bg-white opacity-100'>
+
             <h6  className='text-center text-secondary mx-2' >Nossos serviços</h6>
             {dropdownItems.map((item, index) => (
               <>
@@ -43,6 +47,7 @@ const MyNavbar = ({logo}) => (
                 </NavDropdown.Item>
               </>
             ))}
+            </div>
           </NavDropdown>
         </Nav>
         <Nav>
@@ -55,6 +60,7 @@ const MyNavbar = ({logo}) => (
       </Navbar.Collapse>
     </Container>
   </Navbar>
+  </BigWhiteBox>
 );
 
 export default MyNavbar;
